@@ -10,7 +10,7 @@ import pymysql
 
 # 创建连接
 def addPic(url, tag, time, source, Time,good):
-    conn = pymysql.connect(host='localhost', port=3306, user='root', passwd='75916747', db='study', charset='utf8')
+    conn = pymysql.connect(host='localhost', port=3306, user='root', passwd='123123', db='study', charset='utf8')
     # 创建游标
     cursor = conn.cursor()
     args = (url, tag, time, source,good, Time)
